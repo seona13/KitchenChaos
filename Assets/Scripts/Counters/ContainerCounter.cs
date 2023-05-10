@@ -14,10 +14,13 @@ public class ContainerCounter : BaseCounter
 
     public override void Interact(Player player)
     {
-        // Spawn object and give to the player
-        Transform kitchenObjectTransform = Instantiate(kitchenObjectSO.prefab);
-        kitchenObjectTransform.GetComponent<KitchenObject>().SetKitchenObjectParent(player);
-        
-        OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
+        if (player.HasKitchenObject() == false)
+        {
+            // Player has empty hands; Spawn object and give to the player
+            Transform kitchenObjectTransform = Instantiate(kitchenObjectSO.prefab);
+            kitchenObjectTransform.GetComponent<KitchenObject>().SetKitchenObjectParent(player);
+
+            OnPlayerGrabbedObject?.Invoke(this, EventArgs.Empty);
+        }
     }
 }
