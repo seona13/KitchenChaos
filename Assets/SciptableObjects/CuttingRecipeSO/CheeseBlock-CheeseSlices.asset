@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9106d970d4bab1e4c8e615a6a426bb24, type: 3}
   m_Name: CheeseBlock-CheeseSlices
   m_EditorClassIdentifier: 
-  input: {fileID: 0}
-  output: {fileID: 0}
+  input: {fileID: 11400000, guid: 4a7c982044cd7c34c9074d2944eda33c, type: 2}
+  output: {fileID: 11400000, guid: 9405e40c021253f4998ed24e4e62dfc2, type: 2}
+  cuttingProgressMax: 3
