@@ -209,5 +209,4 @@ public class StoveCounter : BaseCounter, IHasProgress
         }
         return null;
     }
-
 }
