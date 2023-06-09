@@ -155,8 +155,30 @@
                 },
                 {
                     "name": "",
+                    "id": "742f561a-2ece-42cd-b14a-9bddabbd808a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=0.5)",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1c975f98-17c9-4be7-8e41-3c279d00f359",
                     "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee7a1761-8761-41c6-b929-4f48c7caab92",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -177,6 +199,17 @@
                 },
                 {
                     "name": "",
+                    "id": "d8ae0686-82a8-4dca-8a1a-49b90e8cf7b5",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractAlternate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "0ebc9580-8a22-4944-8b0b-39f0ca47767e",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
@@ -188,8 +221,8 @@
                 },
                 {
                     "name": "",
-                    "id": "cca6093b-2737-4411-85fb-ea828eeac0b3",
-                    "path": "<Keyboard>/space",
+                    "id": "09b03998-4e26-49f3-a45d-02e1e467c790",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
